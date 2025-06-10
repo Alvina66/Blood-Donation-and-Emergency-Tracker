@@ -1,0 +1,20 @@
+.table-card {
+    cursor: pointer;
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+.table-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#chartContainer {
+    height: 400px;
+}
